@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import ProductsCard from "../components/productsCard"
+import ProductsCard from "../components/ProductsCard";
 
 function SearchResult() {
     const params = useParams()

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
-import ProductsCard from "../components/productsCard";
+import ProductsCard from "../components/ProductsCard";
 
 function CategoryProducts() {
     const { slug } = useParams()

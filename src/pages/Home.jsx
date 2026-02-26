@@ -1,6 +1,6 @@
 import HomeCategories from "../components/HomeCategories";
 import HomeProducts from "../components/HomeProducts";
-import ProductsCard from "../components/productsCard";
+import ProductsCard from "../components/ProductsCard";
 
 function Home(){
     return(

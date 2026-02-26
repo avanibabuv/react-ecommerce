@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import ProductsCard from "./productsCard"
+import ProductsCard from "./ProductsCard"
 
 function HomeProducts(){
 

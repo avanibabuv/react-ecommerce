@@ -19,12 +19,12 @@ function Productdetail() {
     };
 
     return (
-        <section className="px-28 py-12">
+        <section className="px-4 py-6 sm:px-40 sm:py-12">
             {
                 product &&
                 <div className=" mb-12">
                     <h2 className="text-cyan-600 mb-3 text-md">Productdetail &gt; {product?.category} &gt; {product.brand}</h2>
-                    <div className="grid grid-cols-2">
+                    <div className="grid grid-cols-1 sm:grid-cols-2">
                         <div>
                             <img className="max-h-[70vh]" src={product.images[0]} alt="" />
                             <div className="flex">
@@ -113,7 +113,8 @@ function Productdetail() {
                             </div>
                         </div>
                     </div>
-                    <div className="p-24">
+                    <hr />
+                    <div className="p-t-4 sm:p-28">
                         <h2 className="text-lg text-cyan-600 mb-3">Review</h2>
                         {
                             product.reviews.map((review,index) => (

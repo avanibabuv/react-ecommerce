@@ -14,7 +14,7 @@ function HomeCategories(){
         <>
          <div className=" mb-12">
             <h2 className="text-cyan-800 mb-3 text-xl">Categories</h2>
-            <div className="grid grid-cols-6 ">
+            <div className="grid grid-cols-3 sm:grid-cols-6 ">
                 {
                     categories.map((d)=>
                        

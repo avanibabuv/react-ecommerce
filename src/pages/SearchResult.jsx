@@ -12,10 +12,10 @@ function SearchResult() {
     }, [params.query])
     return (
 
-        <section className="px-28 py-12">
+        <section className="px-4 py-6 sm:px-40 sm:py-12">
             <h2 className="text-cyan-600 mb-1 text-xl">Search Results</h2>
             <h3 className="text-cyan-600 mb-3 text-md">{params.query}</h3>
-            <div className="grid grid-cols-4 gap-2 text-sm ">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-sm ">
                 {
                     products.map((product)=>(
                         <ProductsCard key={product.id} data={product}/>

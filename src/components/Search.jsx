@@ -12,7 +12,7 @@ function Search() {
     }
     return (
 
-        <div className="flex items-center">
+        <div className="hidden sm:flex items-center">
             <input onChange={(e)=>setQuery(e.target.value)} className="border  border-cyan-600  h-7 rounded-s  placeholder-cyan-600 w-80 placeholder pl-2 " type="text" placeholder="Search" />
             <button onClick={searchProduct}>
                 <svg className=" text-cyan-800 border rounded-r-sm h-7 w-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">

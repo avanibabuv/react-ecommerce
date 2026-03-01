@@ -12,10 +12,10 @@ function CategoryProducts() {
     }, [slug])
 
     return (
-        <section className="px-40 py-12">
+        <section className="px-4 py-6 sm:px-40 sm:py-12" >
             <div className="mb-12">
                 <h2 className="text-xl text-cyan-800 mb-3">Products-{slug}</h2>
-                <div className="grid grid-cols-4 gap-6">
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
                     {
                         products.map((product) => (
                             <ProductsCard key={product.id} data={product} />
